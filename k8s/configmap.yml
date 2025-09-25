@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  DB_HOST: "<cloudnative-db.c54oie6ckhz5.ap-south-1.rds.amazonaws.com>"   # Terraform output se RDS endpoint paste karo
+  DB_NAME: "mydb"
