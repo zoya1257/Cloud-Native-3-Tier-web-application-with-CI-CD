@@ -14,3 +14,5 @@ variable "db_password" {
 variable "cluster_name" {
   default = "cloud-native-cluster"
 }
+
+
